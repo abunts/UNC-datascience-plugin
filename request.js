@@ -1,6 +1,5 @@
 //using the fetch api
 const fetch = require("node-fetch");
-//creating the api to call
 const api_url = 'https://datascience-college.unc.edu/wp-json/tribe/events/v1/events';
 async function getAPI(api_url) {
     try {
